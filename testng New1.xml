@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/AKASH/IdeaProjects/LearningSeleniumATB15x">
+        <classes>
+            <class name="org.thetestingacademy.Selenium_Task.SeleniumTask1_25Feb_Katalon">
+                <methods>
+                    <include name="KatalonPage"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
