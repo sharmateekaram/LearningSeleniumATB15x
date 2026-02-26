@@ -1,5 +1,7 @@
 package org.thetestingacademy.Selenium_Task;
 
+import io.qameta.allure.Description;
+import io.qameta.allure.Owner;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -11,6 +13,10 @@ import java.sql.SQLOutput;
 
 public class SeleniumTask1_25Feb_Katalon {
 
+
+
+    @Owner("MrBhardwaj")
+    @Description("Click on the Make appointment button, enter the username, password given")
     @Test
     public void KatalonPage() throws InterruptedException {
         WebDriver driver = new ChromeDriver();

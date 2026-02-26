@@ -1,4 +1,4 @@
-package org.thetestingacademy.Selenium01_Basic;
+package org.thetestingacademy.Selenium001_Basic;
 
 import org.openqa.selenium.chrome.ChromeDriver;
 
