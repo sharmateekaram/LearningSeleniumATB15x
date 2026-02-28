@@ -26,7 +26,7 @@
       <dependency>
           <groupId>org.seleniumhq.selenium</groupId>
           <artifactId>selenium-java</artifactId>
-          <version>4.40.0</version>
+          <version>4.41.0</version>
           <scope>compile</scope>
       </dependency>
 
@@ -38,12 +38,12 @@
           <scope>test</scope>
       </dependency>
 
-      <dependency>
-          <groupId>org.assertj</groupId>
-          <artifactId>assertj-core</artifactId>
-          <version>3.27.6</version>
-          <scope>test</scope>
-      </dependency>
+<!--      <dependency>-->
+<!--          <groupId>org.assertj</groupId>-->
+<!--          <artifactId>assertj-core</artifactId>-->
+<!--          <version>3.27.6</version>-->
+<!--          <scope>test</scope>-->
+<!--      </dependency>-->
 
 
       <!-- Source: https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->

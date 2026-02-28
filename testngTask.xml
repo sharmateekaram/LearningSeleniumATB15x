@@ -3,10 +3,10 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/AKASH/IdeaProjects/LearningSeleniumATB15x">
         <classes>
-            <class name="org.thetestingacademy.Selenium_Task.SeleniumTask1_25Feb_Katalon">
-                <methods>
-                    <include name="KatalonPage"/>
-                </methods>
+            <class name="org.thetestingacademy.Selenium_Task.SeleniumTask2_27Feb_TTA_Bank">
+<!--                <methods>-->
+<!--                    <include name="bank_TTA"/>-->
+<!--                </methods>-->
             </class>
         </classes>
     </test>
