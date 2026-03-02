@@ -72,7 +72,7 @@ public class SeleniumTask2_27Feb_TTA_Bank {
         Assert.assertTrue(label_TotalBalanceAfter.getText().contains("49,990.00"));
 
 
-
+        driver.quit();
 
 
 

@@ -3,7 +3,7 @@
 <suite name="All Test Suite">
     <test verbose="2" preserve-order="true" name="C:/Users/AKASH/IdeaProjects/LearningSeleniumATB15x">
         <classes>
-            <class name="org.thetestingacademy.Selenium_Task.SeleniumTask2_27Feb_TTA_Bank">
+            <class name="org.thetestingacademy.Selenium_Task.SeleniumTask3_2Mar_TerminatedEmp">
 <!--                <methods>-->
 <!--                    <include name="bank_TTA"/>-->
 <!--                </methods>-->
