@@ -41,18 +41,15 @@ public class SeleniumTask6_9Mar_BookingCom extends CommonToAll {
         WebElement destination = driver.findElement(By.xpath("//button[@data-ui-name='input_location_to_segment_0']"));
         destination.click();
 
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(5));
-        WebElement cityNameTextBox = wait.until(
-                ExpectedConditions.elementToBeClickable(
-                        By.xpath("//input[@data-ui-name='input_text_autocomplete']")
-                )
-        );
 
-       // WebElement cityNameTextBox = driver.findElement(By.xpath("//input[@data-ui-name='input_text_autocomplete']"));
+        WebElement cityNameTextBox = driver.findElement(By.xpath("//input[@data-ui-name='input_text_autocomplete']"));
        // WebElement checkbox =driver.findElement(By.xpath("//span/b[text()='BLR']/ancestor::ul//descendant::span[@class='InputCheckbox-module__field___5DCVC']"));
         Actions action = new Actions(driver);
         action
-                .moveToElement(cityNameTextBox).sendKeys("BLR")
+                .moveToElement(cityNameTextBox).click()
+                .keyDown(Keys.SHIFT)
+                .sendKeys(cityNameTextBox, "blr")
+                .keyUp(Keys.SHIFT)
                 .pause(Duration.ofSeconds(2))
                 .sendKeys(Keys.TAB)
                 .sendKeys(Keys.ENTER)
