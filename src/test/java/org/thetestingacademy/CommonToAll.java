@@ -64,6 +64,10 @@ public class CommonToAll {
         element.click();
     }
 
+    public void sendKeysInEle(String xpath, String value){
+        WebElement element = driver.findElement(By.xpath(xpath));
+        element.sendKeys(value);
+    }
 
 
 
