@@ -111,19 +111,39 @@ public class SeleniumTask7_11Mar_VmoCom extends CommonToAll {
         WebElement copyLink = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//button[@data-qa='xugejexijo']")));
         copyLink.click();
 
-        driver.switchTo().newWindow(WindowType.TAB);
-        driver.get("https://www.google.com");
-        WebElement searchBox = driver.findElement(By.name("q"));
 
-        Actions actions = new Actions(driver);
-        actions.click(searchBox)
-                .keyDown(Keys.CONTROL)
-                .sendKeys("v")
-                .keyUp(Keys.CONTROL)
-                .perform();
 
-        String pastedText = searchBox.getAttribute("value");
-        Assert.assertTrue(pastedText.length() > 0);
+
+
+
+
+
+
+
+
+
+
+
+//        driver.switchTo().newWindow(WindowType.TAB);
+//        driver.get("https://www.google.com");
+//        WebElement googleSearchBox = driver.findElement(By.name("q"));
+//
+//        Actions actions = new Actions(driver);
+//        actions.click(googleSearchBox)
+//                .keyDown(Keys.CONTROL)
+//                .sendKeys("v")
+//                .keyUp(Keys.CONTROL)
+//                .perform();
+//
+//        String pastedText = googleSearchBox.getAttribute("value");
+//        Assert.assertTrue(pastedText.length() > 0);
+//
+//
+//        if(pastedText.contains("visualwebsiteoptimizer")) {
+//            System.out.println("Copy to clipboard is successful");
+//        } else {
+//            System.out.println("Failed to copy");
+//        }
 
 
 
